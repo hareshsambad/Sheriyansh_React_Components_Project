@@ -5,4 +5,5 @@ import { defineConfig } from "vite";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
+  base: "/Sheriyansh_React_Components_Project/",
 });
